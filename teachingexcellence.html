@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Public School - Teaching Excellence</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Neon Theme Styling -->
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #e6e6e6;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .neon-title {
+            color: #00eaff;
+            text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+        }
+
+        /* Neon Navbar */
+        .neon-nav {
+            background: #0c0c0c;
+            border-bottom: 2px solid #00ffcc;
+            box-shadow: 0 0 15px #00ffcc;
+        }
+
+        .navbar-brand {
+            color: #00ffcc !important;
+            font-weight: bold;
+            font-size: 1.4rem;
+            text-shadow: 0 0 10px #00ffcc;
+        }
+
+        .navbar-brand img {
+            border: 2px solid #00ffcc;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #00ffcc;
+        }
+
+        .nav-link {
+            color: #e6e6e6 !important;
+            transition: 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #00eaff !important;
+            text-shadow: 0 0 8px #00eaff;
+        }
+
+        .active-link {
+            color: #00ff9d !important;
+            text-shadow: 0 0 10px #00ff9d;
+        }
+
+        .neon-toggler {
+            border: 1px solid #00eaff;
+            box-shadow: 0 0 10px #00eaff;
+        }
+
+        .navbar-toggler-icon {
+            filter: invert(90%);
+        }
+
+        /* Cards */
+        .teach-card {
+            background-color: #161616;
+            border: 1px solid #00eaff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px #00eaff;
+            transition: 0.3s ease;
+            height: 100%;
+        }
+
+        .teach-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px #00eaff;
+        }
+
+        .highlight-box {
+            background-color: #111;
+            border-left: 4px solid #00ff9d;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #00ff9d;
+        }
+
+        footer {
+            border-top: 1px solid #00ff9d;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg neon-nav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="https://via.placeholder.com/40" alt="Logo" class="me-2">
+                Royal Public School
+            </a>
+
+            <button class="navbar-toggler neon-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+                    <li class="nav-item"><a class="nav-link active-link" href="teaching-excellence.html">Teaching
+                            Excellence</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center py-5">
+        <h1 class="neon-title">Teaching Excellence</h1>
+        <p class="lead">Empowering students with modern pedagogy, innovation, and personalized learning.</p>
+    </header>
+
+    <!-- Main Content -->
+    <section class="container py-4">
+
+        <div class="highlight-box mb-5">
+            <h3 class="text-info">Our Philosophy</h3>
+            <p>
+                At Royal Public School, teaching excellence is rooted in a holistic approach that combines academic
+                rigor,
+                interactive learning, real-world application, and strong teacher-student engagement. Our mission is to
+                help
+                students develop critical thinking, creativity, communication, and confidence.
+            </p>
+        </div>
+
+        <!-- Teaching Excellence Grid -->
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="teach-card">
+                    <h4 class="text-info">Highly Qualified Faculty</h4>
+                    <p>
+                        Our teachers are well-trained professionals with years of experience, certified in modern
+                        teaching
+                        methodologies and dedicated to student success.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="teach-card">
+                    <h4 class="text-info">Innovative Teaching Methods</h4>
+                    <p>
+                        Interactive boards, practical demonstrations, group activities, and project-based learning are
+                        integrated into everyday lessons.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="teach-card">
+                    <h4 class="text-info">Student-Centered Approach</h4>
+                    <p>
+                        Every child learns differently. We emphasize personalized learning plans, mentoring sessions,
+                        and
+                        continuous progress tracking.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="teach-card">
+                    <h4 class="text-info">Technology-Driven Learning</h4>
+                    <p>
+                        Smart classrooms, online resources, digital assessments, and e-learning tools help enhance
+                        learning
+                        outcomes and engagement.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="teach-card">
+                    <h4 class="text-info">Skill-Based Education</h4>
+                    <p>
+                        Focus on communication, leadership, teamwork, problem-solving, logical reasoning, and creativity
+                        through
+                        structured activities and competitions.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="teach-card">
+                    <h4 class="text-info">Continuous Assessment</h4>
+                    <p>
+                        Instead of only exams, we track student development through quizzes, projects, presentations,
+                        and
+                        performance evaluations throughout the year.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <h5 class="neon-title">Contact Us</h5>
+        <p>Email: info@royalpublicschool.edu | Phone: +91 98765 43210</p>
+        <p class="text-muted">&copy; 2025 Royal Public School</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
